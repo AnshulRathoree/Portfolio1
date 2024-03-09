@@ -1,0 +1,16 @@
+<!-- views/index.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form method="post" action="/submit">
+        <input type="text" name="name" placeholder="Name" required><br>
+        <input type="email" name="email" placeholder="Email" required><br>
+        <textarea name="message" placeholder="Message" required></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
